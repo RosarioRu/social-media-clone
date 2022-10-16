@@ -15,20 +15,16 @@ const buttonList = [
 ];
 
 function LinkButtons() {
-
-  const buttonStyles = {
-    boxSizing: "border-box",
-    border: "2px solid black"
-  }
-
   return (
     <React.Fragment>
       {buttonList.map((button, index) =>
-        <Button style={buttonStyles}
+        <Button 
           buttonText={button.buttonText}
-          key={button.index}
+          key= {index}
         />
       )}
     </React.Fragment>
   );
 }
+
+export default LinkButtons;
