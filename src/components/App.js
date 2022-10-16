@@ -10,9 +10,20 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <Column1 />
-      <Column2 />
-      <Column3 />
+      <br/>
+      <table class="table">
+        <tbody>
+          <td>
+            <Column1 />
+          </td>
+          <td>
+            <Column2 />
+          </td>
+          <td>
+            <Column3 />
+          </td>
+        </tbody>
+      </table>
     </React.Fragment>
   );
 }
