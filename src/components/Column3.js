@@ -4,9 +4,9 @@ import React from "react";
 function Column3() {
 
   const columnStyles = {
-    border: "solid black 2px",
-    display: "inline-block",
-    width: "33%",
+    // border: "solid black 2px",
+    // display: "inline-block",
+    // width: "33%",
     textAlign: "Center"
   }
 
